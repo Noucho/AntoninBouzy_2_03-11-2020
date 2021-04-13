@@ -1482,10 +1482,6 @@ ol{
 }
 
 
-.elementFiltres > .fa{
-	font-size:95%;
-}
-
 
 
 
@@ -1534,15 +1530,16 @@ ol{
 .texteFiltres{
 	font-weight: bold;
 	font-size:2.5em;
-	padding:3% 3% 4% 0;
+	padding:3% 3% 3% 0;
 	border-style:solid;
 	border-width:3px;
 	border-radius:100px;
-	border-color:#F2F2F2;
+	border-color:rgba(0, 0, 0, 0.5);
 	display:inline;
 	transition:0.5s;
 	cursor:pointer;
 	white-space: nowrap;
+	position:relative;
 }
 
 #TexteFiltre1::before{
@@ -1552,26 +1549,31 @@ ol{
 	border-style:solid;
 	border-width:2px;
 	border-radius:200px;
-	border-color:#DEEBFF;
-	background-color:#DEEBFF;
+	border-color:rgba(255, 0, 0, 0.5);
+	background-color:rgba(0, 255, 0, 0.5);
 	margin-right:30px;
-	padding:4.8% 4.3% 4.8% 4.3%;
+	padding:4.4% 4.2% 4.4% 4.2%;
 	font-size:0.5em;
-	position:absolute-relative;
+	position:relative;
+	bottom:0.2em;
+	left:-0.2em;
 }
 
 #TexteFiltre2::before{
-	font-family:"Font Awesome 5 Free";
+	font-family:"Font Awesome 5 Free";                  /*Couleur du fond et bordure du cercle : #DEEBFF     Couleur de la bordure du bouton : #F2F2F2 */
 	content:"\f1ae";
 	color:#0065FC;
 	border-style:solid;
 	border-width:2px;
 	border-radius:200px;
-	border-color:#DEEBFF;
-	background-color:#DEEBFF;
+	border-color:rgba(255, 0, 0, 0.5);
+	background-color:rgba(0, 255, 0, 0.5);
 	margin-right:30px;
-	padding:1% 1.5% 1% 1.5%;
+	padding:4.4% 5% 4.4% 5%;
 	font-size:0.5em;
+	position:relative;
+	bottom:0.2em;
+	left:-0.2em;
 }
 
 #TexteFiltre3::before{
@@ -1581,11 +1583,14 @@ ol{
 	border-style:solid;
 	border-width:2px;
 	border-radius:200px;
-	border-color:#DEEBFF;
-	background-color:#DEEBFF;
+	border-color:rgba(255, 0, 0, 0.5);
+	background-color:rgba(0, 255, 0, 0.5);
 	margin-right:30px;
-	padding:1% 1% 1% 1%;
+	padding:4.4% 4.4% 4.4% 4.4%;
 	font-size:0.5em;
+	position:relative;
+	bottom:0.2em;
+	left:-0.2em;
 }
 
 #TexteFiltre4::before{
@@ -1595,11 +1600,13 @@ ol{
 	border-style:solid;
 	border-width:2px;
 	border-radius:200px;
-	border-color:#DEEBFF;
-	background-color:#DEEBFF;
+	border-color:rgba(255, 0, 0, 0.5);
+	background-color:rgba(0, 255, 0, 0.5);
 	margin-right:30px;
-	padding:1% 1% 1% 1%;
-	font-size:0.5em;
+	padding:4.4% 4.3% 4.4% 4.3%;
+	position:relative;
+	bottom:0.2em;
+	left:-0.2em;
 }
 
 #IRondInfo i{
