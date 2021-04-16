@@ -93,7 +93,7 @@
 */
 
 
-@media all and (min-device-width:980px) {
+@media all and (min-device-width:980px){
 
 
 .header{
@@ -712,7 +712,7 @@ ol{
 ------------------------------------------------
 */
 
-@media all and (min-device-width: 1px) and (max-device-width:480px) {
+@media all and (min-device-width: 1px) and (max-device-width:480px){
 
 
 body{
@@ -848,7 +848,7 @@ ol{
 	color:black;
 	font-weight:900;
 	font-family:'Raleway', sans-serif;
-	font-size 2em;
+	font-size :2em;
 }
 
 #BeforeInput::before{
@@ -1402,7 +1402,7 @@ ol{
 ------------------------------------------------
 */
 
-@media all and (min-device-width:481px) and (max-device-width:979px) {
+@media all and (min-device-width:481px) and (max-device-width:979px){
 
 body{
 	font-family: 'Raleway', sans-serif; 
@@ -1550,7 +1550,7 @@ ol{
 	color:black;
 	font-weight:900;
 	font-family:'Raleway', sans-serif;
-	font-size 2em;
+	font-size: 2em;
 }
 
 #BeforeInput::before{
